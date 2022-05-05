@@ -1,3 +1,5 @@
+alert("Please Select Brand");
+
 function Samsung(){
     document.getElementById("Samsung").style.display="block";
     document.getElementById("Redmi").style.display="none";
