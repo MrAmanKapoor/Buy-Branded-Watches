@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header
+{
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    position: relative;
+}
+nav
+{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-bottom: 2px solid white;
+}
+.nav-links
+{
+    flex: 1;
+    text-align: right;
+    font-size: 25px;
+
+}
+.nav-links ul li {
+    margin-right: 15%;
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a
+{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+.nav-links ul li a:hover{
+    color: red;
+    font-size: 27px;
+}
+
+.content
+{
+    width: 100%;
+    height: 50%;
+    color: white;
+    display: flex;
+    padding: 1% 2%;
+    margin: 2% 2%;
+}
+#Samsung , #Redmi , #Sonata , #Boat{
+    display: none;
+}
+img{
+    width: 50%;
+    height:30%;
+    margin-left: 20%;
+}
+.box{
+    background-color: white;
+    border: 2px solid black;
+    border-radius:10px ;
+    color: black;
+    width: 50%;
+    min-height: 50%;
+    margin-left:20%;
+    padding: 2% 2%;
+}
+.box h3{
+    font-size: 25px;
+    color: green;
+}
+.Details{
+    display: none;
+    font-size: 100%;
+    color: rgb(214, 14, 14);
+    font-family: cursive;
+}
+.box p{
+   
+    font-size: 5px;
+    color: black;
+    margin-bottom: 2%;
+    }
+.box h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 20px black;
+}
+h1{
+    text-align: center;
+    color: rgb(0, 255, 98);
+}
